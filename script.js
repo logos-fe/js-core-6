@@ -21,6 +21,9 @@
 
 // 9. Modules, import export
 // Дозволяють розбивати код на декілька файлів
+import { fileName } from "./get-name.mjs";
+
+console.log(fileName)
 // import { fileName, getName } from "./get-name"
 // import country from "./get-name"
 
